@@ -105,41 +105,29 @@ to align it properly */
 /* Now target the specific li classes for styling and use box-shadow effect to border and text-shadow effect
   to icons for glowing effect and use transition property for smooth transition effect. */
 /*facebook*/
-.wrapper ul li:hover.facebook {
-  border: 5px solid #3b5998;
-  box-shadow: 0 0 15px #3b5998;
+/*linkedin*/
+.wrapper ul li:hover.linkedin {
+  border: 5px solid #113cfc;
+  box-shadow: 0 0 15px #113cfc;
   transition: all 0.5s ease;
 }
 
-.wrapper ul li:hover .fa-facebook {
-  color: #3b5998;
-  text-shadow: 0 0 15px #3b5998;
+.wrapper ul li:hover .fa-linkedin {
+  color: #113cfc;
+  text-shadow: 0 0 15px #113cfc;
   transition: all 0.5s ease;
 }
 
-/*twitter*/
-.wrapper ul li:hover.twitter {
-  border: 5px solid #00aced;
-  box-shadow: 0 0 15px #00aced;
+/* github */
+.wrapper ul li:hover.github {
+  border: 5px solid #504d4d;
+  box-shadow: 0 0 15px #494848;
   transition: all 0.5s ease;
 }
 
-.wrapper ul li:hover .fa-twitter {
-  color: #00aced;
-  text-shadow: 0 0 15px #00aced;
-  transition: all 0.5s ease;
-}
-
-/* instagram */
-.wrapper ul li:hover.instagram {
-  border: 5px solid #bc2a8d;
-  box-shadow: 0 0 15px #bc2a8d;
-  transition: all 0.5s ease;
-}
-
-.wrapper ul li:hover .fa-instagram {
-  color: #bc2a8d;
-  text-shadow: 0 0 15px #bc2a8d;
+.wrapper ul li:hover .fa-github {
+  color: #4d4a4a;
+  text-shadow: 0 0 15px #504e4f;
   transition: all 0.5s ease;
 }
 
